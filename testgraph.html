@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v5.js"></script>
+    </head>
+    <body>
+        <button onclick = "Asc()">Ascending</button>
+        <button onclick = "Dsc()">Descending</button>
+        
+    
+        
+        <div id = "Graph">
+           
+        </div>
+         <script>
+                var margin = {top: 10, right: 30, bottom: 90, left: 60},
+                width = 500 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+
+                // creating SVG
+                var svg = d3.select("body").append("svg")
+                .attr("width", width + margin.left + margin.right + 50)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                
+                Asc() 
+             
+                function Asc(){     
+                    
+                   d3.selectAll("circle").remove()
+                    d3.selectAll("text").remove()
+                    
+                    
+                    d3.csv("testdata.csv").then(function(data){
+                       console.log(data)
+
+                        data.forEach(function(d) {
+                           d.value = +d.value
+                        })
+
+                         data.sort(function(b,a){
+                            return b.value - a.value
+                         })
+
+                        // Creating X axis scale
+                        var x = d3.scaleLinear()
+                            .domain([0, 10])
+                            .range([ 0, width])
+
+                        // Creating Y axis Scale 
+                        var y = d3.scaleLinear()
+                            .domain([4,0])
+                            .range([0, height])
+
+                        //Adds the x Axis to the graph, translating to view the text easier  
+                        svg.append("g")
+                           .attr("transform", "translate(0," + height + ")")
+                           .call(d3.axisBottom(x))
+                           .selectAll("text") 
+                           .attr("font-size","20px")
+
+                        //adding y axis 
+                        svg.append("g")
+                            .call(d3.axisLeft(y))
+                            .attr("font-size","20px")
+
+                        //circles           
+                        svg.selectAll("girls")
+                            .data(data)
+                            .enter()
+                            .append("circle")
+                                .attr("cx", function(d) {return x(d.value)} )
+                                .attr("cy", function(d){ return y(d.Y)})
+                                .attr("r", "10")     
+                        
+                        svg.selectAll("Lines")
+                            .append("line")
+                            .attr("x1" , 1)
+                            .attr("y1" , 2)
+                            .attr("x2" , 8)
+                            .attr("y2" , 4)
+                            .attr("stroke" , "black")
+                        
+                  
+                })                        
+             }
+             
+              function Dsc(){     
+                  
+                    d3.selectAll("circle").remove()
+                    d3.selectAll("text").remove()
+                  
+                    d3.csv("testdata.csv").then(function(data){
+                       console.log(data)
+                            
+                        data.forEach(function(d) {
+                           d.value = +d.value
+                        })
+
+                         data.sort(function(b,a){
+                            return a.value - b.value 
+                         })
+
+                        // Creating X axis scale
+                        var x = d3.scaleLinear()
+                            .domain([0, 10])
+                            .range([ 0, width])
+
+                        // Creating Y axis Scale 
+                        var y = d3.scaleBand()
+                            .domain(data.map(function(d){return d.var}))
+                            .range([0, height])
+                            .padding(1)   
+
+                        //Adds the x Axis to the graph, translating to view the text easier  
+                        svg.append("g")
+                           .attr("transform", "translate(0," + height + ")")
+                           .call(d3.axisBottom(x))
+                           .selectAll("text") 
+                           .attr("font-size","20px")
+
+                        //adding y axis 
+                        svg.append("g")
+                            .call(d3.axisLeft(y))
+                            .attr("font-size","20px")
+
+                        //circles           
+                        svg.selectAll("girls")
+                            .data(data)
+                            .enter()
+                            .append("circle")
+                                .attr("cx", function(d) {return x(d.value)} )
+                                .attr("cy", function(d){ return y(d.var)})
+                                .attr("r", "10")                       
+                })                        
+             }
+             
+            function toggle(input){
+                console.log(input.value)
+                
+                if (input.value == 1) {
+              
+                    Asc()
+                }
+                if (input.value == 0) {
+                    
+                  
+                    Dsc()
+                }
+            }
+            </script>
+    </body>
+</html>

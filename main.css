@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  text-transform: uppercase;
+  width: 85%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ff99cc;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: hotpink;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.input--text {
+  font-size: 1.5rem;
+  color: black;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.input--text--male {
+  font-size: 1.5rem;
+  color: blue;
+  margin: 0rem;
+}
+
+.input--text--female {
+  font-size: 1.5rem;
+  color: pink;
+  margin: 0rem;
+}
+
+.input--selector--year {
+  font-size: 1.5rem;
+  color: blue;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.input--selector--sorting {
+  margin: 0rem;
+  font-size: 1.5rem;
+  color: blue;
+  padding: 0rem;
+}
