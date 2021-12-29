@@ -16,6 +16,8 @@
                 font: 15px sans-serif;
                 font-weight: bold;
                 background: lightsteelblue;	
+                /* background: lightgreen;  */
+                /* background:lightsalmon;  */
                 border: 0px;		
                 border-radius: 10px;			
                 pointer-events: none;
@@ -32,6 +34,7 @@
                 width:95%; 
                 margin:0 auto;
                 padding:20px;
+                margin-bottom:2rem;
             }
             
          
@@ -105,12 +108,14 @@
             //Initialized modes 
             var mode = "Greatest Wage Gap"; 
             var year = "2019"
-            
+        
+            /*
             // Initialized sizes 
             var circleSize = 15; 
             var textSize = 30; 
             var lineSize = 20;
-            
+            */
+
             drawGraph(); 
             
             function drawGraph(){
@@ -166,8 +171,19 @@
                         }    
                     })
                     
-                    //console.log("Length is: " + thisData.length);
-                    max = 0; 
+            
+    
+                    circleSize = 25;    
+                    textSize = "40px"
+                    lineSize = 50
+
+                    if (year != "2019"){
+                        lineSize = 35;
+                        circleSize = 15;
+                    }
+
+                     //console.log("Length is: " + thisData.length);
+                     max = 0; 
                     min = 10000
                     //console.log(thisData);
                     for (i  = 0 ; i < thisData.length ; i++){
@@ -183,79 +199,6 @@
                             //console.log(thisData[i].occupation)
                         }
                     }
-
-                    //console.log ("biggestVal: " + max + " smallestVal: " + min); 
-                    
-                     // Resizing SVG elements 
-                    if (year == "2019"){
-                        circleSize = 25;    
-                        textSize = "40px"
-                        lineSize = 50
-                        xScale = [300, 3000]; 
-                    }
-                    
-                    if (year == "2018"){
-                        circleSize = 7;
-                        textSize = "14px";
-                        lineSize = 16; 
-                        xScale = [300,2600]
-                    }
-                    if (year == "2017"){
-                        circleSize = 7;
-                        textSize = "14px";
-                        lineSize = 16; 
-                        xScale = [300,2500]
-                    }      
-                    if (year == "2016") { 
-                        circleSize = 8;
-                        textSize = "15px";
-                        lineSize = 17; 
-                        xScale = [300,2500]
-                    }
-                    if (year == "2015") { 
-                        circleSize = 8;
-                        textSize = "15px";
-                        lineSize = 17; 
-                        xScale = [300,2500]
-                    }
-                    if (year == "2014") { 
-                        circleSize = 9;
-                        textSize = "16px";
-                        lineSize = 18; 
-                        xScale = [300,2300]
-                    }
-                    if (year == "2013") { 
-                        circleSize = 9;
-                        textSize = "16px";
-                        lineSize = 18; 
-                        xScale = [300,2300]
-                    }
-                    
-                    if (year == "2012") {
-                        circleSize = 9;
-                        textSize = "16px";
-                        lineSize = 18; 
-                        xScale = [300,2300]
-                    }
-                    if (year == "2011") {
-                        circleSize = 9;
-                        textSize = "16px";
-                        lineSize = 18; 
-                        xScale = [300,2300]
-                    }
-                    if (year == "2010") {
-                        circleSize = 9;
-                        textSize = "16px";
-                        lineSize = 18; 
-                        xScale = [300,2300]
-                    }
-                    if (year == "2009"){
-                        circleSize = 8; 
-                        textSize = "15px";
-                        lineSize = 17
-                        xScale = [300, 2200] 
-                    }
-    
                     xScale= [ (min - 250), (max + 300) ]; 
 
                     // Creating X axis scale q
@@ -396,13 +339,13 @@
                                  .style("opacity", 0); 
                         })
 
-                        /*
+                    
                     if (year == "2019"){
                         svg.selectAll("differences")
                         .data(thisData)
                         .enter() 
                         .append("circle")
-                            .attr("cx", 13)
+                            .attr("cx", 40)
                             .attr("cy", function(d) { return y(d.occupation)})
                             .attr("r", circleSize )
                             .attr("fill", function(d) { 
@@ -447,7 +390,7 @@
                             }
                         })
                     }
-                    */
+                    
                    //
 
                    //graph title top 
