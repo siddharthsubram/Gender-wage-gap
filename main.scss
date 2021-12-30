@@ -1,3 +1,26 @@
+//colors
+$color--salmon: #feb7c0;
+$color--pinkLight: #e2cada;
+$color--pinkDark: #da98c5;
+$color--cyan: #60a4b8;
+$color--blue: #4f789e;
+$color--purple: #7c3f6e;
+$color--white: #ffffff;
+
+body {
+      background-color: $color--salmon;
+}
+
+.page {
+      width: 98%;
+      margin: 0 auto;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      border-radius: 1rem;
+      background-color: $color--white;
+      padding: 3rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 * {
       padding: 0px;
       margin: 0px;
@@ -8,12 +31,29 @@
       text-transform: uppercase;
       width: 85%;
       margin: 0 auto;
-      padding: 2rem;
-      background: #ff99cc;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: $color--white;
       text-align: center;
-      color: white;
-      font-size: 2rem;
-      letter-spacing: 0.5rem;
+      color: black;
+      //border: 1px solid black;
+      font-family: "Bitter", serif;
+
+      &--mainText {
+            //margin-top:1rem;
+            letter-spacing: 0.3rem;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: $color--purple;
+            font-weight: 500;
+      }
+      &--subText {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            color: $color--pinkDark;
+            padding-bottom: 2rem;
+            border-bottom: 3px solid $color--purple;
+      }
 }
 
 .input {
@@ -22,13 +62,14 @@
       flex-direction: row;
       //border: 1px solid black;
       justify-content: center;
-      background-color: hotpink;
+      background-color: $color--white;
       padding-top: 1rem;
       padding-bottom: 1rem;
-
+      font-family: "Bitter", serif;
       &--text {
             font-size: 1.5rem;
-            color: black;
+            font-weight: 400;
+            color: $color--purple;
             padding: 0rem;
             margin: 0rem;
             //margin-right: 1rem;
@@ -37,13 +78,15 @@
             //border: 1px solid black;
 
             &--male {
-                  font-size: 1.5rem;
-                  color: blue;
+                  font-size: 1.52rem;
+                  font-weight: 700;
+                  color: $color--cyan;
                   margin: 0rem;
             }
             &--female {
-                  font-size: 1.5rem;
-                  color: pink;
+                  font-weight: 800;
+                  font-size: 1.52rem;
+                  color: $color--pinkDark;
                   margin: 0rem;
             }
       }
@@ -67,5 +110,29 @@
                   color: blue;
                   padding: 0rem;
             }
+      }
+}
+.selector {
+      color: $color--blue;
+      text-align: center;
+      font-size: 1.4rem;
+      padding: 0rem;
+      border: none;
+      & > * {
+            background-color: $color--blue;
+            color: $color--white;
+      }
+}
+.credits {
+      width: 90%;
+      margin: 0 auto;
+      //border:1px solid black;
+      margin-top: 5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-family: "Bitter", serif;
+      &--text {
+            font-size: 0.75rem;
+            color: $color--purple;
       }
 }
