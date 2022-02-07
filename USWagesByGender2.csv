@@ -1,0 +1,498 @@
+occupation,year,men,women,diff,FirstYear,shorthand,firstyeardif
+Accountants and auditors,2015,1345,988,357,2015,Accountants and Auditors,0
+Accountants and auditors,2016,1441,1018,423,2015,Accountants and Auditors,66
+Accountants and auditors,2017,1389,1065,324,2015,Accountants and Auditors,-33
+Accountants and auditors,2018,1404,1108,296,2015,Accountants and Auditors,-61
+Accountants and auditors,2019,1419,1141,278,2015,Accountants and Auditors,-79
+Accountants and auditors,2020,1520,1186,334,2015,Accountants and Auditors,-23
+Accountants and auditors,2021,1494,1261,233,2015,Accountants and Auditors,402
+Architecture and engineering occupations,2015,1452,1257,195,2015,Architecture and Engineering ,0
+Architecture and engineering occupations,2016,1529,1207,322,2015,Architecture and Engineering ,127
+Architecture and engineering occupations,2017,1518,1307,211,2015,Architecture and Engineering ,16
+Architecture and engineering occupations,2018,1528,1259,269,2015,Architecture and Engineering ,74
+Architecture and engineering occupations,2019,1589,1339,250,2015,Architecture and Engineering ,55
+Architecture and engineering occupations,2020,1626,1382,244,2015,Architecture and Engineering ,49
+Architecture and engineering occupations,2021,1725,1435,290,2015,Architecture and Engineering ,232
+"Arts, design, entertainment, sports, and media occupations",2015,1088,942,146,2015,"Arts, Design, Entertainment, Sports",0
+"Arts, design, entertainment, sports, and media occupations",2016,1139,951,188,2015,"Arts, Design, Entertainment, Sports",42
+"Arts, design, entertainment, sports, and media occupations",2017,1161,943,218,2015,"Arts, Design, Entertainment, Sports",72
+"Arts, design, entertainment, sports, and media occupations",2018,1151,997,154,2015,"Arts, Design, Entertainment, Sports",8
+"Arts, design, entertainment, sports, and media occupations",2019,1231,1077,154,2015,"Arts, Design, Entertainment, Sports",8
+"Arts, design, entertainment, sports, and media occupations",2020,1252,1128,124,2015,"Arts, Design, Entertainment, Sports",-22
+"Arts, design, entertainment, sports, and media occupations",2021,1317,1145,172,2015,"Arts, Design, Entertainment, Sports",-18
+"Bookkeeping, accounting, and auditing clerks",2015,690,692,2,2015,Bookkeeping and Accounting,0
+"Bookkeeping, accounting, and auditing clerks",2016,790,716,74,2015,Bookkeeping and Accounting,72
+"Bookkeeping, accounting, and auditing clerks",2017,743,716,27,2015,Bookkeeping and Accounting,25
+"Bookkeeping, accounting, and auditing clerks",2018,778,739,39,2015,Bookkeeping and Accounting,37
+"Bookkeeping, accounting, and auditing clerks",2019,784,764,20,2015,Bookkeeping and Accounting,18
+"Bookkeeping, accounting, and auditing clerks",2020,1101,809,292,2015,Bookkeeping and Accounting,290
+"Bookkeeping, accounting, and auditing clerks",2021,1009,802,207,2015,Bookkeeping and Accounting,386
+Building and grounds cleaning and maintenance occupations,2015,517,419,98,2015,Building  and Maintenance ,0
+Building and grounds cleaning and maintenance occupations,2016,548,454,94,2015,Building  and Maintenance ,-4
+Building and grounds cleaning and maintenance occupations,2017,573,463,110,2015,Building  and Maintenance ,12
+Building and grounds cleaning and maintenance occupations,2018,604,477,127,2015,Building  and Maintenance ,29
+Building and grounds cleaning and maintenance occupations,2019,618,502,116,2015,Building  and Maintenance ,18
+Building and grounds cleaning and maintenance occupations,2020,651,511,140,2015,Building  and Maintenance ,42
+Building and grounds cleaning and maintenance occupations,2021,685,555,130,2015,Building  and Maintenance ,159
+Business and financial operations occupations,2015,1327,1004,323,2015,Business and Financial Operations,0
+Business and financial operations occupations,2016,1373,1018,355,2015,Business and Financial Operations,32
+Business and financial operations occupations,2017,1390,1055,335,2015,Business and Financial Operations,12
+Business and financial operations occupations,2018,1383,1105,278,2015,Business and Financial Operations,-45
+Business and financial operations occupations,2019,1468,1148,320,2015,Business and Financial Operations,-3
+Business and financial operations occupations,2021,1552,1253,299,2015,Business and Financial Operations,-27
+Cashiers,2015,471,405,66,2015,Cashiers,0
+Cashiers,2016,475,403,72,2015,Cashiers,6
+Cashiers,2017,493,422,71,2015,Cashiers,5
+Cashiers,2018,468,463,5,2015,Cashiers,-61
+Cashiers,2019,510,499,11,2015,Cashiers,-55
+Cashiers,2020,524,501,23,2015,Cashiers,-43
+Cashiers,2021,520,513,7,2015,Cashiers,-184
+Chief executives,2015,2251,1836,415,2015,Chief Executives,0
+Chief executives,2016,2419,1876,543,2015,Chief Executives,128
+Chief executives,2017,2415,1920,495,2015,Chief Executives,80
+Chief executives,2018,2488,1736,752,2015,Chief Executives,337
+Chief executives,2019,2509,2019,490,2015,Chief Executives,75
+Chief executives,2021,2721,1904,817,2015,Chief Executives,265
+Community and social service occupations,2015,973,845,128,2015,Community and Social Service,0
+Community and social service occupations,2016,1004,880,124,2015,Community and Social Service,-4
+Community and social service occupations,2017,976,857,119,2015,Community and Social Service,-9
+Community and social service occupations,2018,984,886,98,2015,Community and Social Service,-30
+Community and social service occupations,2019,1064,941,123,2015,Community and Social Service,-5
+Community and social service occupations,2020,1103,976,127,2015,Community and Social Service,-1
+Community and social service occupations,2021,1164,1016,148,2015,Community and Social Service,-89
+Computer and information systems managers,2015,1817,1563,254,2015,Information Systems Managers,0
+Computer and information systems managers,2016,1756,1680,76,2015,Information Systems Managers,-178
+Computer and information systems managers,2017,1897,1629,268,2015,Information Systems Managers,14
+Computer and information systems managers,2018,1920,1727,193,2015,Information Systems Managers,-61
+Computer and information systems managers,2019,2019,1892,127,2015,Information Systems Managers,-127
+Computer and information systems managers,2020,2091,1910,181,2015,Information Systems Managers,-73
+Computer and information systems managers,2021,2135,1908,227,2015,Information Systems Managers,181
+Computer and mathematical occupations,2015,1503,1245,258,2015,"Computer, Mathematical Occupations",0
+Computer and mathematical occupations,2016,1518,1325,193,2015,"Computer, Mathematical Occupations",-65
+Computer and mathematical occupations,2017,1552,1235,317,2015,"Computer, Mathematical Occupations",59
+Computer and mathematical occupations,2018,1604,1345,259,2015,"Computer, Mathematical Occupations",1
+Computer and mathematical occupations,2019,1658,1353,305,2015,"Computer, Mathematical Occupations",47
+Computer and mathematical occupations,2020,1738,1423,315,2015,"Computer, Mathematical Occupations",57
+Computer and mathematical occupations,2021,1742,1499,243,2015,"Computer, Mathematical Occupations",113
+"Computer occupations, all other",2015,1252,1145,107,2015,Other Computer Occupations,0
+"Computer occupations, all other",2016,1244,1055,189,2015,Other Computer Occupations,82
+"Computer occupations, all other",2017,1250,1059,191,2015,Other Computer Occupations,84
+"Computer occupations, all other",2018,1238,1208,30,2015,Other Computer Occupations,-77
+"Computer occupations, all other",2019,1365,1148,217,2015,Other Computer Occupations,110
+"Computer occupations, all other",2020,1456,1161,295,2015,Other Computer Occupations,188
+"Computer occupations, all other",2021,1483,1143,340,2015,Other Computer Occupations,144
+Construction and extraction occupations,2015,751,704,47,2015,"Construction, Extraction Occupations",0
+Construction and extraction occupations,2016,786,639,147,2015,"Construction, Extraction Occupations",100
+Construction and extraction occupations,2017,796,802,6,2015,"Construction, Extraction Occupations",-41
+Construction and extraction occupations,2018,809,785,24,2015,"Construction, Extraction Occupations",-23
+Construction and extraction occupations,2019,873,711,162,2015,"Construction, Extraction Occupations",115
+Construction and extraction occupations,2020,910,796,114,2015,"Construction, Extraction Occupations",67
+Construction and extraction occupations,2021,908,720,188,2015,"Construction, Extraction Occupations",39
+Cooks,2015,427,400,27,2015,Chefs,0
+Cooks,2016,459,421,38,2015,Chefs,11
+Cooks,2017,481,436,45,2015,Chefs,18
+Cooks,2018,518,437,81,2015,Chefs,54
+Cooks,2019,535,489,46,2015,Chefs,19
+Cooks,2020,512,505,7,2015,Chefs,-20
+Cooks,2021,572,512,60,2015,Chefs,-15
+Counselors,2015,908,902,6,2015,Counselors,0
+Counselors,2016,892,907,15,2015,Counselors,9
+Counselors,2017,901,894,7,2015,Counselors,1
+Counselors,2018,1004,913,91,2015,Counselors,85
+Counselors,2019,944,1003,59,2015,Counselors,53
+Counselors,2021,1083,860,223,2015,Counselors,95
+Customer service representatives,2015,690,604,86,2015,Customer Service Representatives,0
+Customer service representatives,2016,676,623,53,2015,Customer Service Representatives,-33
+Customer service representatives,2017,712,637,75,2015,Customer Service Representatives,-11
+Customer service representatives,2018,689,680,9,2015,Customer Service Representatives,-77
+Customer service representatives,2019,736,673,63,2015,Customer Service Representatives,-23
+Customer service representatives,2020,771,698,73,2015,Customer Service Representatives,-13
+Customer service representatives,2021,867,737,130,2015,Customer Service Representatives,-137
+Designers,2015,1099,918,181,2015,Designers,0
+Designers,2016,1267,922,345,2015,Designers,164
+Designers,2017,1172,857,315,2015,Designers,134
+Designers,2018,1169,932,237,2015,Designers,56
+Designers,2019,1214,1052,162,2015,Designers,-19
+Designers,2020,1234,1107,127,2015,Designers,-54
+Designers,2021,1429,1271,158,2015,Designers,-91
+Driver/sales workers and truck drivers,2015,751,632,119,2015,"Driver/sales workers, truck drivers",0
+Driver/sales workers and truck drivers,2016,787,630,157,2015,"Driver/sales workers, truck drivers",38
+Driver/sales workers and truck drivers,2017,807,589,218,2015,"Driver/sales workers, truck drivers",99
+Driver/sales workers and truck drivers,2018,829,559,270,2015,"Driver/sales workers, truck drivers",151
+Driver/sales workers and truck drivers,2019,861,660,201,2015,"Driver/sales workers, truck drivers",82
+Driver/sales workers and truck drivers,2020,916,666,250,2015,"Driver/sales workers, truck drivers",131
+Driver/sales workers and truck drivers,2021,933,732,201,2015,"Driver/sales workers, truck drivers",-24
+Education administrators,2015,1585,1252,333,2015,Education administrators,0
+Education administrators,2016,1528,1280,248,2015,Education administrators,-85
+Education administrators,2017,1561,1243,318,2015,Education administrators,-15
+Education administrators,2018,1563,1245,318,2015,Education administrators,-15
+Education administrators,2019,1467,1335,132,2015,Education administrators,-201
+Education administrators,2020,1590,1400,190,2015,Education administrators,-143
+Education administrators,2021,1857,1411,446,2015,Education administrators,-82
+"Education, training, and library occupations",2015,1144,907,237,2015,"Education, training, and library ",0
+"Education, training, and library occupations",2016,1154,933,221,2015,"Education, training, and library ",-16
+"Education, training, and library occupations",2017,1202,935,267,2015,"Education, training, and library ",30
+"Education, training, and library occupations",2018,1235,934,301,2015,"Education, training, and library ",64
+"Education, training, and library occupations",2019,1265,987,278,2015,"Education, training, and library ",41
+"Education, training, and library occupations",2020,1327,1026,301,2015,"Education, training, and library ",64
+"Education, training, and library occupations",2021,1332,1071,261,2015,"Education, training, and library ",17
+Elementary and middle school teachers,2015,1077,957,120,2015,"Elementary, middle school teachers",0
+Elementary and middle school teachers,2016,1126,981,145,2015,"Elementary, middle school teachers",25
+Elementary and middle school teachers,2017,1139,987,152,2015,"Elementary, middle school teachers",32
+Elementary and middle school teachers,2018,1148,982,166,2015,"Elementary, middle school teachers",46
+Elementary and middle school teachers,2019,1161,1042,119,2015,"Elementary, middle school teachers",-1
+Elementary and middle school teachers,2020,1258,1085,173,2015,"Elementary, middle school teachers",53
+Elementary and middle school teachers,2021,1301,1138,163,2015,"Elementary, middle school teachers",-158
+"Farming, fishing, and forestry occupations",2015,477,437,40,2015,"Farming, fishing, and forestry ",0
+"Farming, fishing, and forestry occupations",2016,544,465,79,2015,"Farming, fishing, and forestry ",39
+"Farming, fishing, and forestry occupations",2017,585,471,114,2015,"Farming, fishing, and forestry ",74
+"Farming, fishing, and forestry occupations",2018,602,483,119,2015,"Farming, fishing, and forestry ",79
+"Farming, fishing, and forestry occupations",2019,593,513,80,2015,"Farming, fishing, and forestry ",40
+"Farming, fishing, and forestry occupations",2020,608,528,80,2015,"Farming, fishing, and forestry ",40
+"Farming, fishing, and forestry occupations",2021,637,585,52,2015,"Farming, fishing, and forestry ",-124
+Financial managers,2015,1732,1130,602,2015,Financial managers,0
+Financial managers,2016,1670,1157,513,2015,Financial managers,-89
+Financial managers,2017,1719,1222,497,2015,Financial managers,-105
+Financial managers,2018,1784,1262,522,2015,Financial managers,-80
+Financial managers,2019,1897,1207,690,2015,Financial managers,88
+Financial managers,2020,1880,1242,638,2015,Financial managers,36
+Financial managers,2021,1885,1372,513,2015,Financial managers,233
+First-line supervisors of non-retail sales workers,2015,1140,896,244,2015,Sales Worker Supervisor,0
+First-line supervisors of non-retail sales workers,2016,1161,1004,157,2015,Sales Worker Supervisor,-87
+First-line supervisors of non-retail sales workers,2017,1151,965,186,2015,Sales Worker Supervisor,-58
+First-line supervisors of non-retail sales workers,2018,1199,1054,145,2015,Sales Worker Supervisor,-99
+First-line supervisors of non-retail sales workers,2019,1157,1173,16,2015,Sales Worker Supervisor,-228
+First-line supervisors of non-retail sales workers,2020,1338,1076,262,2015,Sales Worker Supervisor,18
+First-line supervisors of non-retail sales workers,2021,1257,1130,127,2015,Sales Worker Supervisor,39
+First-line supervisors of office and administrative support workers,2015,878,781,97,2015,Administrative supporter workers,0
+First-line supervisors of office and administrative support workers,2016,942,809,133,2015,Administrative supporter workers,36
+First-line supervisors of office and administrative support workers,2017,987,819,168,2015,Administrative supporter workers,71
+First-line supervisors of office and administrative support workers,2018,1050,835,215,2015,Administrative supporter workers,118
+First-line supervisors of office and administrative support workers,2019,971,816,155,2015,Administrative supporter workers,58
+First-line supervisors of office and administrative support workers,2020,1145,925,220,2015,Administrative supporter workers,123
+First-line supervisors of office and administrative support workers,2021,1184,913,271,2015,Administrative supporter workers,-23
+First-line supervisors of production and operating workers,2015,924,623,301,2015,production supervisors,0
+First-line supervisors of production and operating workers,2016,972,723,249,2015,production supervisors,-52
+First-line supervisors of production and operating workers,2017,1007,716,291,2015,production supervisors,-10
+First-line supervisors of production and operating workers,2018,1050,745,305,2015,production supervisors,4
+First-line supervisors of production and operating workers,2019,1031,721,310,2015,production supervisors,9
+First-line supervisors of production and operating workers,2020,1099,816,283,2015,production supervisors,-18
+First-line supervisors of production and operating workers,2021,1138,796,342,2015,production supervisors,25
+First-line supervisors of retail sales workers,2015,825,614,211,2015,retail sales supervisors,0
+First-line supervisors of retail sales workers,2016,857,630,227,2015,retail sales supervisors,16
+First-line supervisors of retail sales workers,2017,891,639,252,2015,retail sales supervisors,41
+First-line supervisors of retail sales workers,2018,911,672,239,2015,retail sales supervisors,28
+First-line supervisors of retail sales workers,2019,955,708,247,2015,retail sales supervisors,36
+First-line supervisors of retail sales workers,2020,981,733,248,2015,retail sales supervisors,37
+First-line supervisors of retail sales workers,2021,992,733,259,2015,retail sales supervisors,50
+Food preparation and serving related occupations,2015,481,414,67,2015,Food preparation and serving ,0
+Food preparation and serving related occupations,2016,491,434,57,2015,Food preparation and serving ,-10
+Food preparation and serving related occupations,2017,502,459,43,2015,Food preparation and serving ,-24
+Food preparation and serving related occupations,2018,533,473,60,2015,Food preparation and serving ,-7
+Food preparation and serving related occupations,2019,576,492,84,2015,Food preparation and serving ,17
+Food preparation and serving related occupations,2020,570,506,64,2015,Food preparation and serving ,-3
+Food preparation and serving related occupations,2021,598,534,64,2015,Food preparation and serving ,24
+Food service managers,2015,820,680,140,2015,Food service managers,0
+Food service managers,2016,853,632,221,2015,Food service managers,81
+Food service managers,2017,894,674,220,2015,Food service managers,80
+Food service managers,2018,922,708,214,2015,Food service managers,74
+Food service managers,2019,964,719,245,2015,Food service managers,105
+Food service managers,2020,1006,791,215,2015,Food service managers,75
+Food service managers,2021,1014,789,225,2015,Food service managers,26
+General and operations managers,2015,1347,1002,345,2015,General and operations managers,0
+General and operations managers,2016,1358,1037,321,2015,General and operations managers,-24
+General and operations managers,2017,1488,1134,354,2015,General and operations managers,9
+General and operations managers,2018,1427,1139,288,2015,General and operations managers,-57
+General and operations managers,2019,1476,1153,323,2015,General and operations managers,-22
+General and operations managers,2021,1548,1285,263,2015,General and operations managers,43
+Healthcare practitioners and technical occupations,2015,1272,991,281,2015,Healthcare practitioners and occupations,0
+Healthcare practitioners and technical occupations,2016,1332,1036,296,2015,Healthcare practitioners and occupations,15
+Healthcare practitioners and technical occupations,2017,1341,1068,273,2015,Healthcare practitioners and occupations,-8
+Healthcare practitioners and technical occupations,2018,1383,1078,305,2015,Healthcare practitioners and occupations,24
+Healthcare practitioners and technical occupations,2019,1422,1130,292,2015,Healthcare practitioners and occupations,11
+Healthcare practitioners and technical occupations,2020,1506,1153,353,2015,Healthcare practitioners and occupations,72
+Healthcare practitioners and technical occupations,2021,1516,1218,298,2015,Healthcare practitioners and occupations,-33
+Healthcare support occupations,2015,577,490,87,2015,Healthcare support occupations,0
+Healthcare support occupations,2016,602,519,83,2015,Healthcare support occupations,-4
+Healthcare support occupations,2017,597,533,64,2015,Healthcare support occupations,-23
+Healthcare support occupations,2018,661,548,113,2015,Healthcare support occupations,26
+Healthcare support occupations,2019,639,585,54,2015,Healthcare support occupations,-33
+Healthcare support occupations,2020,640,600,40,2015,Healthcare support occupations,-47
+Healthcare support occupations,2021,723,624,99,2015,Healthcare support occupations,-117
+Human resources workers,2015,1158,984,174,2015,Human resources workers,0
+Human resources workers,2016,1364,1089,275,2015,Human resources workers,101
+Human resources workers,2017,1236,1035,201,2015,Human resources workers,27
+Human resources workers,2019,1325,1149,176,2015,Human resources workers,2
+Human resources workers,2020,1443,1174,269,2015,Human resources workers,95
+Human resources workers,2021,1411,1212,199,2015,Human resources workers,37
+"Inspectors, testers, sorters, samplers, and weighers",2015,844,583,261,2015,"Inspectors, testers, weighers",0
+"Inspectors, testers, sorters, samplers, and weighers",2016,834,584,250,2015,"Inspectors, testers, weighers",-11
+"Inspectors, testers, sorters, samplers, and weighers",2017,853,637,216,2015,"Inspectors, testers, weighers",-45
+"Inspectors, testers, sorters, samplers, and weighers",2018,868,679,189,2015,"Inspectors, testers, weighers",-72
+"Inspectors, testers, sorters, samplers, and weighers",2019,939,693,246,2015,"Inspectors, testers, weighers",-15
+"Inspectors, testers, sorters, samplers, and weighers",2020,910,710,200,2015,"Inspectors, testers, weighers",-61
+"Inspectors, testers, sorters, samplers, and weighers",2021,1005,733,272,2015,"Inspectors, testers, weighers",102
+"Installation, maintenance, and repair occupations",2015,842,761,81,2015,Installation and maintenance,0
+"Installation, maintenance, and repair occupations",2016,863,783,80,2015,Installation and maintenance,-1
+"Installation, maintenance, and repair occupations",2017,883,736,147,2015,Installation and maintenance,66
+"Installation, maintenance, and repair occupations",2018,936,823,113,2015,Installation and maintenance,32
+"Installation, maintenance, and repair occupations",2019,943,850,93,2015,Installation and maintenance,12
+"Installation, maintenance, and repair occupations",2020,991,801,190,2015,Installation and maintenance,109
+"Installation, maintenance, and repair occupations",2021,1023,836,187,2015,Installation and maintenance,174
+Janitors and building cleaners,2015,547,429,118,2015,Janitors and building cleaners,0
+Janitors and building cleaners,2016,564,476,88,2015,Janitors and building cleaners,-30
+Janitors and building cleaners,2017,574,481,93,2015,Janitors and building cleaners,-25
+Janitors and building cleaners,2018,607,491,116,2015,Janitors and building cleaners,-2
+Janitors and building cleaners,2019,610,510,100,2015,Janitors and building cleaners,-18
+Janitors and building cleaners,2020,662,522,140,2015,Janitors and building cleaners,22
+Janitors and building cleaners,2021,675,561,114,2015,Janitors and building cleaners,20
+"Laborers and freight, stock, and material movers, hand",2015,547,455,92,2015,Movers and hand Laborers,0
+"Laborers and freight, stock, and material movers, hand",2016,580,509,71,2015,Movers and hand Laborers,-21
+"Laborers and freight, stock, and material movers, hand",2017,595,500,95,2015,Movers and hand Laborers,3
+"Laborers and freight, stock, and material movers, hand",2018,620,541,79,2015,Movers and hand Laborers,-13
+"Laborers and freight, stock, and material movers, hand",2019,657,567,90,2015,Movers and hand Laborers,-2
+"Laborers and freight, stock, and material movers, hand",2020,672,595,77,2015,Movers and hand Laborers,-15
+"Laborers and freight, stock, and material movers, hand",2021,703,624,79,2015,Movers and hand Laborers,41
+Lawyers,2015,1914,1717,197,2015,Lawyers,0
+Lawyers,2016,2086,1619,467,2015,Lawyers,270
+Lawyers,2017,2105,1753,352,2015,Lawyers,155
+Lawyers,2018,2202,1762,440,2015,Lawyers,243
+Lawyers,2019,2202,1878,324,2015,Lawyers,127
+Lawyers,2020,2324,1665,659,2015,Lawyers,462
+Lawyers,2021,2495,1912,583,2015,Lawyers,217
+Legal occupations,2015,1877,1135,742,2015,Legal occupations,0
+Legal occupations,2016,1904,1152,752,2015,Legal occupations,10
+Legal occupations,2017,1896,1192,704,2015,Legal occupations,-38
+Legal occupations,2018,1910,1243,667,2015,Legal occupations,-75
+Legal occupations,2019,1999,1266,733,2015,Legal occupations,-9
+Legal occupations,2020,2275,1252,1023,2015,Legal occupations,281
+Legal occupations,2021,2233,1332,901,2015,Legal occupations,57
+"Life, physical, and social science occupations",2015,1379,1067,312,2015,"Life, social science occupations",0
+"Life, physical, and social science occupations",2016,1319,1119,200,2015,"Life, social science occupations",-112
+"Life, physical, and social science occupations",2017,1361,1183,178,2015,"Life, social science occupations",-134
+"Life, physical, and social science occupations",2018,1357,1156,201,2015,"Life, social science occupations",-111
+"Life, physical, and social science occupations",2019,1447,1237,210,2015,"Life, social science occupations",-102
+"Life, physical, and social science occupations",2020,1450,1202,248,2015,"Life, social science occupations",-64
+"Life, physical, and social science occupations",2021,1496,1342,154,2015,"Life, social science occupations",27
+Maids and housekeeping cleaners,2015,475,407,68,2015,Maids and house cleaners,0
+Maids and housekeeping cleaners,2016,497,427,70,2015,Maids and house cleaners,2
+Maids and housekeeping cleaners,2017,508,439,69,2015,Maids and house cleaners,1
+Maids and housekeeping cleaners,2018,559,457,102,2015,Maids and house cleaners,34
+Maids and housekeeping cleaners,2019,520,484,36,2015,Maids and house cleaners,-32
+Maids and housekeeping cleaners,2020,556,497,59,2015,Maids and house cleaners,-9
+Maids and housekeeping cleaners,2021,622,529,93,2015,Maids and house cleaners,106
+Management analysts,2015,1519,1348,171,2015,Management analysts,0
+Management analysts,2016,1586,1342,244,2015,Management analysts,73
+Management analysts,2017,1651,1315,336,2015,Management analysts,165
+Management analysts,2018,1642,1437,205,2015,Management analysts,34
+Management analysts,2019,1870,1517,353,2015,Management analysts,182
+Management analysts,2020,1856,1455,401,2015,Management analysts,230
+Management analysts,2021,1887,1451,436,2015,Management analysts,85
+"Managers, all other",2015,1525,1213,312,2015,"Managers, all other",0
+"Managers, all other",2016,1542,1188,354,2015,"Managers, all other",42
+"Managers, all other",2017,1629,1251,378,2015,"Managers, all other",66
+"Managers, all other",2018,1628,1341,287,2015,"Managers, all other",-25
+"Managers, all other",2019,1725,1317,408,2015,"Managers, all other",96
+"Managers, all other",2021,1747,1396,351,2015,"Managers, all other",205
+Marketing and sales managers,2015,1603,1258,345,2015,Marketing and sales managers,0
+Marketing and sales managers,2016,1745,1142,603,2015,Marketing and sales managers,258
+Marketing and sales managers,2017,1747,1288,459,2015,Marketing and sales managers,114
+Marketing and sales managers,2018,1852,1362,490,2015,Marketing and sales managers,145
+Marketing and sales managers,2019,1895,1393,502,2015,Marketing and sales managers,157
+Marketing and sales managers,2020,1732,1435,297,2015,Marketing and sales managers,-48
+Marketing and sales managers,2021,1698,1490,208,2015,Marketing and sales managers,96
+Medical and health services managers,2015,1422,1156,266,2015,health services managers,0
+Medical and health services managers,2021,1773,1363,410,2015,health services managers,11
+Miscellaneous agricultural workers,2015,460,398,62,2015,agricultural workers,0
+Miscellaneous agricultural workers,2016,524,423,101,2015,agricultural workers,39
+Miscellaneous agricultural workers,2017,553,453,100,2015,agricultural workers,38
+Miscellaneous agricultural workers,2019,581,502,79,2015,agricultural workers,17
+Miscellaneous agricultural workers,2020,589,519,70,2015,agricultural workers,8
+Miscellaneous agricultural workers,2021,617,590,27,2015,agricultural workers,48
+Miscellaneous assemblers and fabricators,2015,637,512,125,2015,assemblers and fabricators,0
+Miscellaneous assemblers and fabricators,2016,625,559,66,2015,assemblers and fabricators,-59
+Miscellaneous assemblers and fabricators,2017,700,559,141,2015,assemblers and fabricators,16
+Miscellaneous assemblers and fabricators,2018,723,583,140,2015,assemblers and fabricators,15
+Miscellaneous assemblers and fabricators,2019,724,597,127,2015,assemblers and fabricators,2
+Miscellaneous assemblers and fabricators,2020,740,638,102,2015,assemblers and fabricators,-23
+Miscellaneous assemblers and fabricators,2021,751,664,87,2015,assemblers and fabricators,82
+"Nursing, psychiatric, and home health aides",2015,526,457,69,2015,"psychiatric, and home aides",0
+"Nursing, psychiatric, and home health aides",2016,534,498,36,2015,"psychiatric, and home aides",-33
+"Nursing, psychiatric, and home health aides",2017,583,493,90,2015,"psychiatric, and home aides",21
+"Nursing, psychiatric, and home health aides",2018,558,513,45,2015,"psychiatric, and home aides",-24
+"Nursing, psychiatric, and home health aides",2019,588,556,32,2015,"psychiatric, and home aides",-37
+"Office clerks, general",2015,609,622,13,2015,"Office clerks, general",0
+"Office clerks, general",2016,707,648,59,2015,"Office clerks, general",46
+"Office clerks, general",2017,780,670,110,2015,"Office clerks, general",97
+"Office clerks, general",2018,670,701,31,2015,"Office clerks, general",18
+"Office clerks, general",2019,718,677,41,2015,"Office clerks, general",28
+"Office clerks, general",2020,790,726,64,2015,"Office clerks, general",51
+"Office clerks, general",2021,823,726,97,2015,"Office clerks, general",141
+Physical Therapists,2015,1347,1215,132,2015,Physical Therapists,0
+Physical Therapists,2016,1348,1306,42,2015,Physical Therapists,-90
+Physical Therapists,2017,1341,1279,62,2015,Physical Therapists,-70
+Physical Therapists,2018,1410,1387,23,2015,Physical Therapists,-109
+Physical Therapists,2019,1610,1323,287,2015,Physical Therapists,155
+Physical Therapists,2020,2311,1905,406,2015,Physical Therapists,274
+Physical Therapists,2021,2647,2283,364,2015,Physical Therapists,21
+Other production workers,2015,666,501,165,2015,Other production workers,0
+Other production workers,2016,690,515,175,2015,Other production workers,10
+Other production workers,2017,716,570,146,2015,Other production workers,-19
+Other production workers,2018,725,566,159,2015,Other production workers,-6
+Other production workers,2019,767,566,201,2015,Other production workers,36
+Other production workers,2020,798,637,161,2015,Other production workers,-4
+Other production workers,2021,809,630,179,2015,Other production workers,44
+Personal care aides,2015,537,441,96,2015,Personal care aides,0
+Personal care aides,2016,514,469,45,2015,Personal care aides,-51
+Personal care aides,2017,520,479,41,2015,Personal care aides,-55
+Personal care aides,2018,555,493,62,2015,Personal care aides,-34
+Personal care aides,2019,581,509,72,2015,Personal care aides,-24
+Personal care aides,2020,567,537,30,2015,Personal care aides,-66
+Personal care aides,2021,666,598,68,2015,Personal care aides,20
+Personal care and service occupations,2015,597,475,122,2015,service occupations,0
+Personal care and service occupations,2016,613,482,131,2015,service occupations,9
+Personal care and service occupations,2017,612,503,109,2015,service occupations,-13
+Personal care and service occupations,2018,638,517,121,2015,service occupations,-1
+Personal care and service occupations,2019,624,531,93,2015,service occupations,-29
+Personal care and service occupations,2020,740,591,149,2015,service occupations,27
+Personal care and service occupations,2021,699,603,96,2015,service occupations,84
+Physicians and surgeons,2015,1915,1533,382,2015,Physicians and surgeons,0
+Physicians and surgeons,2016,2343,1476,867,2015,Physicians and surgeons,485
+Physicians and surgeons,2017,2277,1759,518,2015,Physicians and surgeons,136
+Physicians and surgeons,2018,2513,1677,836,2015,Physicians and surgeons,454
+Physicians and surgeons,2019,2500,1878,622,2015,Physicians and surgeons,240
+Physicians and surgeons,2020,2311,1905,406,2015,Physicians and surgeons,24
+Physicians and surgeons,2021,2647,2283,364,2015,Physicians and surgeons,14
+Police and sheriff's patrol officers,2015,1001,1009,8,2015,Police officers,0
+Police and sheriff's patrol officers,2016,1008,938,70,2015,Police officers,62
+Police and sheriff's patrol officers,2017,1024,985,39,2015,Police officers,31
+Police and sheriff's patrol officers,2018,1131,816,315,2015,Police officers,307
+Police and sheriff's patrol officers,2019,1143,922,221,2015,Police officers,213
+Police and sheriff's patrol officers,2020,1188,1074,114,2015,Police officers,106
+Police and sheriff's patrol officers,2021,1242,1197,45,2015,Police officers,72
+Postsecondary teachers,2015,1405,1144,261,2015,Postsecondary teachers,0
+Postsecondary teachers,2016,1356,1152,204,2015,Postsecondary teachers,-57
+Postsecondary teachers,2017,1414,1208,206,2015,Postsecondary teachers,-55
+Postsecondary teachers,2018,1603,1253,350,2015,Postsecondary teachers,89
+Postsecondary teachers,2019,1670,1358,312,2015,Postsecondary teachers,51
+Postsecondary teachers,2020,1633,1384,249,2015,Postsecondary teachers,-12
+Postsecondary teachers,2021,1653,1483,170,2015,Postsecondary teachers,-23
+Production occupations,2015,729,519,210,2015,Production occupations,0
+Production occupations,2016,723,527,196,2015,Production occupations,-14
+Production occupations,2017,769,564,205,2015,Production occupations,-5
+Production occupations,2018,793,575,218,2015,Production occupations,8
+Production occupations,2019,814,596,218,2015,Production occupations,8
+Production occupations,2020,841,630,211,2015,Production occupations,1
+Production occupations,2021,884,653,231,2015,Production occupations,-38
+"Production workers, all other",2015,666,501,165,2015,Production Workers,0
+"Production workers, all other",2016,690,515,175,2015,Production Workers,12
+"Production workers, all other",2017,716,570,146,2015,Production Workers,0
+"Production workers, all other",2018,725,566,159,2015,Production Workers,-30
+"Production workers, all other",2019,767,566,201,2015,Production Workers,8
+"Production workers, all other",2020,798,637,161,2015,Production Workers,113
+"Production workers, all other",2021,809,630,179,2015,Production Workers,26
+Project management ,2020,1693,1468,225,2020,Project management ,79
+Project management ,2021,1861,1455,406,2020,Project management ,-34
+Protective service occupations,2015,851,655,196,2015,Protective service occupations,0
+Protective service occupations,2016,854,688,166,2015,Protective service occupations,-31
+Protective service occupations,2017,894,690,204,2015,Protective service occupations,3
+Protective service occupations,2018,922,613,309,2015,Protective service occupations,-37
+Protective service occupations,2019,953,731,222,2015,Protective service occupations,49
+Protective service occupations,2020,1043,768,275,2015,Protective service occupations,2
+Protective service occupations,2021,1067,814,253,2015,Protective service occupations,-13
+Receptionists and information clerks,2015,619,569,50,2015,Receptionists,0
+Receptionists and information clerks,2016,600,581,19,2015,Receptionists,-6
+Receptionists and information clerks,2017,652,599,53,2015,Receptionists,-7
+Receptionists and information clerks,2018,593,606,13,2015,Receptionists,-9
+Receptionists and information clerks,2019,735,636,99,2015,Receptionists,-85
+Receptionists and information clerks,2020,688,636,52,2015,Receptionists,90
+Receptionists and information clerks,2021,796,674,122,2015,Receptionists,-26
+Registered nurses,2015,1222,1098,124,2015,Registered nurses,0
+Registered nurses,2016,1261,1143,118,2015,Registered nurses,16
+Registered nurses,2017,1260,1143,117,2015,Registered nurses,-19
+Registered nurses,2018,1271,1156,115,2015,Registered nurses,21
+Registered nurses,2019,1256,1217,39,2015,Registered nurses,28
+Registered nurses,2020,1454,1240,214,2015,Registered nurses,-24
+Registered nurses,2021,1437,1274,163,2015,Registered nurses,32
+Retail salespersons,2015,694,494,200,2015,Retail salespersons,0
+Retail salespersons,2016,730,514,216,2015,Retail salespersons,12
+Retail salespersons,2017,704,523,181,2015,Retail salespersons,23
+Retail salespersons,2018,764,543,221,2015,Retail salespersons,3
+Retail salespersons,2019,806,578,228,2015,Retail salespersons,29
+Retail salespersons,2020,779,603,176,2015,Retail salespersons,-4
+Retail salespersons,2021,855,635,220,2015,Retail salespersons,0
+Sales and related occupations,2015,880,578,302,2015,Other Sales occupations,119
+Sales and related occupations,2016,904,590,314,2015,Other Sales occupations,117
+Sales and related occupations,2017,934,609,325,2015,Other Sales occupations,81
+Sales and related occupations,2019,982,677,305,2015,Other Sales occupations,46
+Sales and related occupations,2020,1046,715,331,2015,Other Sales occupations,164
+Sales and related occupations,2021,1049,720,329,2015,Other Sales occupations,-28
+"Sales representatives, wholesale and manufacturing",2015,1066,917,149,2015,Sales representatives,0
+"Sales representatives, wholesale and manufacturing",2016,1140,872,268,2015,Sales representatives,-71
+"Sales representatives, wholesale and manufacturing",2017,1222,956,266,2015,Sales representatives,-8
+"Sales representatives, wholesale and manufacturing",2018,1239,1009,230,2015,Sales representatives,-9
+"Sales representatives, wholesale and manufacturing",2019,1262,1067,195,2015,Sales representatives,24
+"Sales representatives, wholesale and manufacturing",2020,1378,1065,313,2015,Sales representatives,27
+"Sales representatives, wholesale and manufacturing",2021,1356,1157,199,2015,Sales representatives,-22
+Secondary school teachers,2015,1149,1006,143,2015,Secondary school teachers,0
+Secondary school teachers,2016,1146,1074,72,2015,Secondary school teachers,20
+Secondary school teachers,2017,1226,1091,135,2015,Secondary school teachers,14
+Secondary school teachers,2018,1226,1092,134,2015,Secondary school teachers,47
+Secondary school teachers,2019,1262,1095,167,2015,Secondary school teachers,-71
+Secondary school teachers,2020,1319,1149,170,2015,Secondary school teachers,49
+Secondary school teachers,2021,1269,1159,110,2015,Secondary school teachers,12
+Secretaries and administrative assistants,2015,786,683,103,2015,Secretaries ,0
+Secretaries and administrative assistants,2016,831,708,123,2015,Secretaries ,4
+Secretaries and administrative assistants,2017,852,735,117,2015,Secretaries ,-9
+Secretaries and administrative assistants,2018,903,753,150,2015,Secretaries ,53
+Secretaries and administrative assistants,2019,795,763,32,2015,Secretaries ,5
+Secretaries and administrative assistants,2020,929,777,152,2015,Secretaries ,0
+Secretaries and administrative assistants,2021,1006,807,199,2015,Secretaries ,25
+Security guards and gaming surveillance officers,2015,592,515,77,2015,Security guards and surveillance,0
+Security guards and gaming surveillance officers,2016,597,516,81,2015,Security guards and surveillance,74
+Security guards and gaming surveillance officers,2017,616,548,68,2015,Security guards and surveillance,-46
+Security guards and gaming surveillance officers,2018,636,506,130,2015,Security guards and surveillance,-20
+Security guards and gaming surveillance officers,2019,671,589,82,2015,Security guards and surveillance,83
+Security guards and gambling surveillance officers,2020,680,583,97,2020,Security guards and surveillance,117
+Security guards and gambling surveillance officers,2021,704,641,63,2020,Security guards and surveillance,-14
+Social workers,2015,943,862,81,2015,Social workers,0
+Social workers,2016,1039,884,155,2015,Social workers,-26
+Social workers,2017,935,900,35,2015,Social workers,-16
+Social workers,2018,958,897,61,2015,Social workers,-86
+Social workers,2019,1108,944,164,2015,Social workers,-134
+Social workers,2020,1170,972,198,2015,Social workers,-60
+Social workers,2021,1232,1049,183,2015,Social workers,-35
+Software developers,2015,1751,1415,336,2015,Software developers,0
+Software developers,2016,1863,1553,310,2015,Software developers,-24
+Software developers,2017,1863,1543,320,2015,Software developers,2
+Software developers,2018,1894,1644,250,2015,Software developers,-19
+Software developers,2019,1920,1718,202,2015,Software developers,-22
+Software developers,2020,2004,1728,276,2015,Software developers,-5
+Software developers,2021,1992,1840,152,2015,Software developers,-9
+Stockers and order fillers,2015,537,506,31,2015,Stockers and order fillers,0
+Stockers and order fillers,2016,533,526,7,2015,Stockers and order fillers,81
+Stockers and order fillers,2017,571,538,33,2015,Stockers and order fillers,10
+Stockers and order fillers,2018,558,570,12,2015,Stockers and order fillers,104
+Stockers and order fillers,2019,596,605,9,2015,Stockers and order fillers,104
+Stockers and order fillers,2020,602,576,26,2015,Stockers and order fillers,-3
+Stockers and order fillers,2021,620,603,17,2015,Stockers and order fillers,0
+Teaching assistants,2016,501,525,24,2016,Teaching assistants,-40
+Teaching assistants,2017,642,537,105,2016,Teaching assistants,11
+Teaching assistants,2018,584,550,34,2016,Teaching assistants,1
+Teaching assistants,2019,707,579,128,2016,Teaching assistants,-24
+Teaching assistants,2020,732,604,128,2016,Teaching assistants,-26
+Teaching assistants,2021,639,641,2,2016,Teaching assistants,33
+Transportation and material moving occupations,2015,679,494,185,2015,Transportation and Moving,0
+Transportation and material moving occupations,2016,685,540,145,2015,Transportation and Moving,-27
+Transportation and material moving occupations,2017,710,514,196,2015,Transportation and Moving,-32
+Transportation and material moving occupations,2018,724,538,186,2015,Transportation and Moving,-17
+Transportation and material moving occupations,2019,747,586,161,2015,Transportation and Moving,13
+Transportation and material moving occupations,2020,759,600,159,2015,Transportation and Moving,-24
+Transportation and material moving occupations,2021,786,624,162,2015,Transportation and Moving,-59
+Waiters and waitresses,2015,501,411,90,2015,Waiters and Waitresses,
+Waiters and waitresses,2016,504,441,63,2015,Waiters and Waitresses,
+Waiters and waitresses,2017,533,475,58,2015,Waiters and Waitresses,
+Waiters and waitresses,2018,551,478,73,2015,Waiters and Waitresses,
+Waiters and waitresses,2019,594,491,103,2015,Waiters and Waitresses,
+Waiters and waitresses,2020,563,497,66,2015,Waiters and Waitresses,
+Waiters and waitresses,2021,605,524,81,2015,Waiters and Waitresses,

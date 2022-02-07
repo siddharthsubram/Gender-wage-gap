@@ -48,7 +48,8 @@ body {
             font-weight: 500;
       }
       &--subText {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
+            font-weight:800; 
             letter-spacing: 0.2rem;
             color: $color--pinkDark;
             padding-bottom: 2rem;
@@ -125,14 +126,14 @@ body {
       }
 }
 .credits {
-      width: 90%;
+      width: 95%;
       margin: 0 auto;
       margin-top: 5rem;
       margin-bottom: 1rem;
       text-align: center;
       font-family: "Bitter", serif;
       &--text {
-            font-size: 0.75rem;
+            font-size: 1rem;
             color: $color--purple;
       }
 }

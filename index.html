@@ -65,17 +65,19 @@
                     <h4 class="input--text--female">&nbsp;Female</h4>
                     <h4 class="input--text">&nbsp;wages from &nbsp;</h4>
                     <select class = "selector" onchange = "toggleYear(this)">
+                        <option value ="2021"> 2021 </option>
+                        <option value ="2020"> 2020 </option>
                         <option value ="2019"> 2019 </option>
                         <option value ="2018"> 2018 </option>
                         <option value ="2017"> 2017 </option>
                         <option value ="2016"> 2016 </option>
                         <option value ="2015"> 2015 </option>
-                        <option value ="2014"> 2014 </option>
+                        <!-- <option value ="2014"> 2014 </option>
                         <option value ="2013"> 2013 </option>
                         <option value ="2012"> 2012 </option>
                         <option value ="2011"> 2011 </option>
                         <option value ="2010"> 2010 </option>
-                        <option value ="2009"> 2009 </option>   
+                        <option value ="2009"> 2009 </option>    -->
                     </select>
                      <h4 class="input--text">&nbsp;by</h4>
                     <h4 class="input--selector--sorting">
@@ -86,6 +88,8 @@
                             <option value="Lowest Paying Women's Jobs">Women's wage (Ascending)</option>
                             <option value="Greatest Wage Gap">Wage Gap (Descending)</option> 
                             <option value="Smallest Wage Gap">Wage Gap (Ascending) </option>
+                            <option value="Greatest Reduction in Gap">Greatest Reduction in Gap</option>
+                            <option value="Least Reduction in Gap">Least Reduction in Gap</option>
                         </select>
                     </h4>
             </div>
@@ -96,7 +100,7 @@
     
             <script>
                 //graph margins
-                var margin = {top: 200, right: 500, bottom: 200  , left: 800},
+                var margin = {top: 200, right: 500, bottom: 200  , left: 730},
                 //width = 5000 - margin.left - margin.right;
                 width = 3000; 
                 height = 9000 - margin.top - margin.bottom;
@@ -115,32 +119,28 @@
                 
                 //Initialized modes 
                 var mode = "Greatest Wage Gap"; 
-                var year = "2019"
+                var year = "2021"
             
-                /*
-                // Initialized sizes 
-                var circleSize = 15; 
-                var textSize = 30; 
-                var lineSize = 20;
-                */
     
                 drawGraph(); 
                 
                 function drawGraph(){
-                    d3.csv("USWagesByGender.csv").then(function(data){
+                    d3.csv("USWagesByGender2.csv").then(function(data){
         
-                        /*
+                        console.log(data)
+
+                        
                         d3.selectAll("circle").remove()
                         d3.selectAll("text").remove()
                         d3.selectAll("line").remove()
-                        */
+                        
     
                         //removing previous graph artifacts 
                         d3.selectAll("circle,line,text").remove(); 
                         //used to calculate wage gap
                         data.forEach(function(d) {
-                            //d.men = +d.men;
-                            //d.women = +d.women;
+                            d.men = +d.men;
+                            d.women = +d.women;
                             d.gap = +(Math.abs( +(d.men) - (+(d.women))));
                         })
                         
@@ -152,10 +152,10 @@
                             }
                         }
                         
-                        /*
-                        console.log(data)
-                        console.log(thisData)
-                        */
+                        
+                        //console.log(data)
+                        //console.log(thisData)
+                        
     
                         //sorting algorithms 
                         thisData.sort(function(b,a){
@@ -177,21 +177,24 @@
                             if (mode == "Smallest Wage Gap"){
                                 return a.gap - b.gap; 
                             }    
+                            if (mode =="Greatest Reduction in Gap"){
+                                return a.firstyeardif - b.firstyeardif; 
+                            }
+                            if (mode == "Least Reduction in Gap"){
+                                return b.firstyeardif - a.firstyeardif;
+                            }
                         })
                         /**/
                 
         
-                        circleSize = 25;    
-                        textSize = "40px"
-                        lineSize = 50
+                        circleSize = 30;    
+                        textSize = "50px";
+                        lineSize = 60;
     
-                        if (year != "2019"){
-                            lineSize = 35;
-                            circleSize = 15;
-                        }
+                       
     
                          //console.log("Length is: " + thisData.length);
-                         max = 0; 
+                        max = 0; 
                         min = 10000
                         //console.log(thisData);
                         for (i  = 0 ; i < thisData.length ; i++){
@@ -202,11 +205,6 @@
                             if (localMin < min) { min = localMin}; 
                         }
                        
-                        for (i = 0 ; i <thisData.length; i++){
-                            if (thisData[i].occupation.length > 35){
-                                //console.log(thisData[i].occupation)
-                            }
-                        }
                         xScale= [ (min - 250), (max + 300) ]; 
     
                         // Creating X axis scale q
@@ -217,7 +215,7 @@
                         //var xScale = d3.scaleBand().rangeRound([0, width]).padding(0.4);
                         //Creating Y axis scale  
                         var y = d3.scaleBand()
-                            .domain(thisData.map(function(d){return d.occupation}))
+                            .domain(thisData.map(function(d){return d.shorthand}))
                             .rangeRound([height,0])
                             .padding(1.5)    
                             
@@ -264,8 +262,8 @@
                             //.style("fill", '#60A4B8')
                             .attr("font-weight", '800')
                             .call(d3.axisLeft(y))
-                            .attr("font-size", "32.5px")
-                            .attr("font-weight", '500')
+                            .attr("font-size", "40px")
+                            .attr("font-weight", '900')
                             .attr("class", "axisY");
                             
                             
@@ -279,12 +277,15 @@
                             .append("line")
                                 .attr("x1", function(d) {return x(d.women)} )
                                 .attr("x2", function(d) {return x(d.men)} ) 
-                                .attr("y1", function(d) {return y(d.occupation)}  )
-                                .attr("y2", function(d) {return y(d.occupation); })
+                                .attr("y1", function(d) {return y(d.shorthand)}  )
+                                .attr("y2", function(d) {return y(d.shorthand); })
                                 .attr("stroke", "grey")
                                 .attr("fill" , "white")
                                 .style("opacity" , 0.5)
                                 .attr("stroke-width", lineSize)
+                                // .transition()
+                                // .duration(1000)
+                                // .attr("stroke-width", 60)
                             .on("mouseover",function(d){
                                 d3.select(this).transition().duration(200).style("opacity" , 1)
                                 div.transition()
@@ -308,8 +309,8 @@
                             .enter()
                             .append("circle")
                                 .attr("cx", function(d) {return x(d.women)} )
-                                .attr("cy", function(d){ return y(d.occupation)})
-                                .attr("r", circleSize)
+                                .attr("cy", function(d){ return y(d.shorthand)})
+                                .attr("r", 10)
                                 .style("fill", "#DA98C5")
                                 .attr("stroke", "#AC789B")
                                 .attr("stroke-width", 4)
@@ -335,8 +336,8 @@
                             .enter()
                             .append("circle")
                                 .attr("cx", function(d) {return x(d.men)} )
-                                .attr("cy", function(d){ return y(d.occupation)})
-                                .attr("r", circleSize)
+                                .attr("cy", function(d){ return y(d.shorthand)})
+                                .attr("r", 10)
                                 .style("fill", "#60A4B8")
                                 .attr("stroke", "#487B8A")
                                 .attr("stroke-width", 4)
@@ -357,39 +358,40 @@
                             })
     
                         
-                        if (year == "2019"){
+                            
+                        if (year != "2015"){
                             svg.selectAll("differences")
                             .data(thisData)
                             .enter() 
                             .append("circle")
-                                .attr("cx", 40)
-                                .attr("cy", function(d) { return y(d.occupation)})
+                                .attr("cx", 45)
+                                .attr("cy", function(d) { return y(d.shorthand)})
                                 .attr("r", circleSize )
                                 .attr("fill", function(d) { 
-                                    if (d.diff > 0) {
+                                    if (d.firstyeardif > 0) {
                                         return "#FEA084"
                                     }
-                                    if (d.diff < 0) {
+                                    if (d.firstyeardif < 0) {
                                         return "#84FEA0"
                                     }
-                                    else {
+                                    if (d.firstyeardif == 0) {
                                         return "#f0f8ff"
                                     }
                                 })
-                                .attr("opacity", 0.5)
+                                .attr("opacity", 0.7)
                             .on("mouseover",function(d){
-                                if (d.diff > 0 || d.diff < 0) { 
+                                if (d.firstyeardif > 0 || d.firstyeardif < 0) { 
                                     d3.select(this).transition().duration(200).attr("opacity" , 1).attr("r", circleSize + 2)
                                     div.transition()
                                         .duration(200)
-                                        .style("opacity" , 0.8)
-                                        if (d.diff > 0){
-                                            div.html("Wage gap has increased by $" + d.diff + " since 2009")
+                                        .style("opacity" , 1)
+                                        if (d.firstyeardif > 0){
+                                            div.html("Wage gap has increased by $" + d.firstyeardif + " since 2015")
                                              .style("left", (d3.event.pageX - 200) + "px")	//Changing x and y values so we dont obscure mouse pointer view 	
                                              .style("top", (d3.event.pageY - 60) + "px");//These are used so tooltip appears near county we are observing 
                                         }
-                                        if (d.diff < 0){
-                                             div.html("Wage gap has decrease by $" + (-1 * d.diff)  + " since 2009")
+                                        if (d.firstyeardif < 0){
+                                             div.html("Wage gap has reduced by $" + (-1 * d.firstyeardif)  + " since 2015")
                                             .style("left", (d3.event.pageX - 200) + "px")	//Changing x and y values so we dont obscure mouse pointer view 	
                                             .style("top", (d3.event.pageY - 60) + "px");//These are used so tooltip appears near county we are observing 
                                         }
@@ -400,7 +402,7 @@
                             })
                             .on("mouseout",function(d){
                                 if (d.diff > 0 || d.diff < 0) { 
-                                    d3.select(this).transition().duration(200).attr("opacity", 0.5).attr("r", circleSize)
+                                    d3.select(this).transition().duration(200).attr("opacity", 0.7).attr("r", circleSize)
                                     div.transition()
                                          .duration(200)
                                          .style("opacity", 0); 
@@ -408,14 +410,32 @@
                             })
                         }
                         
-                       //
+                        //Animations
+
+                        svg.selectAll("circle")
+                            .transition()
+                            .duration(300)
+                            .attr("r", 30)
+
+                        svg.select("myline")
+                            .transition()
+                            .duration(1000)
+                            .attr("stroke-width", 60)
+-
+
+                      
+
+                        
+
+
+
     
                        //graph title top 
                         svg.append("text")
-                            .attr("x", (width / 2.9))             
+                            .attr("x", (width / 2.6))             
                             .attr("y", 0 - (margin.top / 2))
                             .attr("text-anchor", "middle")  
-                            .style("font-size", "50px")
+                            .style("font-size", "65px")
                             .attr("font-weight", '600')
                             .style("fill", '#7c3f6e')
                             .text("Weekly Wage ($)");
@@ -424,10 +444,10 @@
                         //Graph title bottom 
                        
                         svg.append("text")
-                            .attr("x", (width / 2.9))             
+                            .attr("x", (width / 2.6))             
                             .attr("y", height + 150)
                             .attr("text-anchor", "middle")  
-                            .style("font-size", "50px")
+                            .style("font-size", "65px")
                             .attr("font-weight", '600')
                             .style("fill", '#7c3f6e')
                             .text("Weekly Wage ($)");
@@ -470,7 +490,7 @@
     
             </script>
             <div class="credits">
-                <p class = "credits--text"> Created by Siddharth Subramanian in collaboration with Professor Suresh Lodha(UCSC) June 2020. Last modified Dec 2021. Data provided from United State Bureau of Labor Statistics </p>
+                <p class = "credits--text"> Created by Siddharth Subramanian in collaboration with Professor Suresh Lodha(UCSC) June 2020. Last modified Jan 2022. Data provided from United State Bureau of Labor Statistics </p>
             </div>
             
             
