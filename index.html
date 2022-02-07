@@ -100,7 +100,7 @@
     
             <script>
                 //graph margins
-                var margin = {top: 200, right: 500, bottom: 200  , left: 730},
+                var margin = {top: 200, right: 600, bottom: 200  , left: 700 },
                 //width = 5000 - margin.left - margin.right;
                 width = 3000; 
                 height = 9000 - margin.top - margin.bottom;
@@ -221,10 +221,15 @@
                             
     
                         //Creating X axis gridlines (We dont need y axis since the data is printed only left to right)      
+
+                        
                         function make_x_grid() {
-                            return d3.axisBottom(x).ticks(35); 
+                            return d3.axisBottom(x).ticks(35); s
                         }
-    
+                        
+                        
+                        
+
                         //Appending gridlines first so that the gridlines appear below the rest of the graph 
                         svg.append("g")			
                           .attr("class", "grid")
@@ -266,10 +271,6 @@
                             .attr("font-weight", '900')
                             .attr("class", "axisY");
                             
-                            
-    
-                        
-    
                         //Line
                         svg.selectAll("myline")
                             .data(thisData)
@@ -282,10 +283,8 @@
                                 .attr("stroke", "grey")
                                 .attr("fill" , "white")
                                 .style("opacity" , 0.5)
-                                .attr("stroke-width", lineSize)
-                                // .transition()
-                                // .duration(1000)
-                                // .attr("stroke-width", 60)
+                                .attr("stroke-width", 3)
+                                .attr("z-index", -1)
                             .on("mouseover",function(d){
                                 d3.select(this).transition().duration(200).style("opacity" , 1)
                                 div.transition()
@@ -299,10 +298,11 @@
                                 d3.select(this).transition().duration(200).style("opacity", 0.5)
                                 div.transition()
                                     .duration(500)
-                                    .style("opacity", 0); 
-    
-                            })
-    
+                                    .style("opacity", 0)
+                            })  .transition()
+                                .duration(1000)
+                                .attr("stroke-width", lineSize );
+
                         //girls
                         svg.selectAll("girls")
                             .data(thisData)
@@ -329,12 +329,16 @@
                                      .duration(500)
                                     .style("opacity", 0); 
                             })
+                            .transition()
+                            .duration(300)
+                            .attr("r", 30);  
     
                         //guys 
                         svg.selectAll("guys")
                             .data(thisData)
                             .enter()
                             .append("circle")
+                                .attr("z-index", 1)
                                 .attr("cx", function(d) {return x(d.men)} )
                                 .attr("cy", function(d){ return y(d.shorthand)})
                                 .attr("r", 10)
@@ -356,15 +360,24 @@
                                      .duration(500)
                                      .style("opacity", 0); 
                             })
+                            .transition()
+                            .duration(300)
+                            .attr("r", 30);  
     
+                        //Animations
+
                         
-                            
+
+
+
+                        // show increase/decrease in wage 
                         if (year != "2015"){
                             svg.selectAll("differences")
                             .data(thisData)
                             .enter() 
                             .append("circle")
                                 .attr("cx", 45)
+                                .attr("z-index", 1)
                                 .attr("cy", function(d) { return y(d.shorthand)})
                                 .attr("r", circleSize )
                                 .attr("fill", function(d) { 
@@ -378,7 +391,8 @@
                                         return "#f0f8ff"
                                     }
                                 })
-                                .attr("opacity", 0.7)
+                                .attr("opacity", 0)
+                                
                             .on("mouseover",function(d){
                                 if (d.firstyeardif > 0 || d.firstyeardif < 0) { 
                                     d3.select(this).transition().duration(200).attr("opacity" , 1).attr("r", circleSize + 2)
@@ -405,25 +419,20 @@
                                     d3.select(this).transition().duration(200).attr("opacity", 0.7).attr("r", circleSize)
                                     div.transition()
                                          .duration(200)
-                                         .style("opacity", 0); 
+                                         .style("opacity", 0)
                                 }
                             })
-                        }
-                        
-                        //Animations
-
-                        svg.selectAll("circle")
-                            .transition()
-                            .duration(300)
-                            .attr("r", 30)
-
-                        svg.select("myline")
                             .transition()
                             .duration(1000)
-                            .attr("stroke-width", 60)
--
+                            .attr("opacity", 0.8);
+                            
+                        }
+                        
+                        
+                       
+           
 
-                      
+                            
 
                         
 
